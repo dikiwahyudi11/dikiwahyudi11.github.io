@@ -21,11 +21,11 @@ repository               : "dikiwahyudi11/dikiwahyudi11.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Diki.jpg"
   name             : "Diki Wahyudi"
   pronouns         : "He/Him"  
-  bio              : "Penultimate Year Statistics Student"
-  location         : "Depok, West Java"
+  bio              : "Penultimate Year Student at Universitas Indonesia Majoring Statistics"
+  location         : "Depok, West Java, Indonesia"
   employer         : "Universitas Indonesia"
   uri              : # URL
   email            : "dikiiwahyudii11@gmail.com" 
@@ -43,7 +43,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "dikiwahyudi11"
-  kaggle           : "dikiwahyudi11" 
+  kaggle           : "dikiiwahyudi" 
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
