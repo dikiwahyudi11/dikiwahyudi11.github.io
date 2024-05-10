@@ -1,25 +1,33 @@
-## Analysis of Open Unemployment Rates in North Sumatera in 2022 Using Spatial Autoregression (SAR)
-
-![SAR](https://cdn.antaranews.com/cache/350x233/2013/06/20130627Bursa-Kerja-270613-af-2.jpg) <br>
+---
+title: "SARIMA"
+excerpt: "Monthly Airline Passenger Forecasting Using SARIMA Analysis. <br/><img src='https://miro.medium.com/v2/resize:fit:1400/0*4Rsuo3vPWquNYvjd'>"
+collection: portfolio
+---
 
 ### Introduction
-Spatial analysis plays a pivotal role in understanding the dynamics of socio-economic phenomena, particularly in regions like North Sumatra, Indonesia. In this project, we delve into the analysis of the Open Unemployment Rate (TPK) dataset for North Sumatra in the year 2022. Unemployment rates serve as crucial indicators of economic health, reflecting the labor market conditions and socio-economic disparities across different regions. By employing various spatial econometric methods, including Spatial Autoregression (SAR), Spatial Error Model (SEM), Spatial Durbin Model (SDM), Spatial Durbin Error Model (SDEM), Spatial Lag Model (SLX), Spatial Autoregressive Combined (SAC), and General Nested Spatial Model (GNSM), we aim to explore the spatial relationships and drivers of unemployment across different districts in North Sumatra.
+This project is conducted as part of the course "Time Series Analysis". This project aims to forecast the monthly airline passenger count of the United States from 1949 to 1960 (`AirPassengers`).
 
 ### Methods
-The methodology employed in this analysis revolves around a suite of spatial econometric techniques tailored for modeling spatially dependent data. These techniques account for the spatial autocorrelation and heterogeneity present in the unemployment rate data for North Sumatra.
+Seasonal Autoregressive Integrated Moving Average (SARIMA) is an extension of the ARIMA model that incorporates seasonality. It is denoted as $\text{SARIMA}(p, d, q)(P, D, Q)_m$, where:
+- $p$, $d$, and $q$ are the non-seasonal AR, differencing, and MA parameters, respectively;
+- $P$, $D$, and $Q$ are the seasonal AR, differencing, and MA parameters, respectively;
+- $m$ is the seasonal period.
 
-Firstly, the TPK dataset for North Sumatra in 2022 is preprocessed, including data cleaning, integration with spatial reference data, and geocoding to ensure compatibility with spatial analysis techniques. Spatial weights matrices are constructed to capture the spatial relationships between different districts or administrative units within North Sumatra.
+### Key Findings
+1. **Linear Model Suitability**: A linear model is deemed inadequate for modeling this dataset due to its inability to capture seasonal effects. The appropriate model for the data is found to be the natural logarithm of `AirPassengers`, represented by $\text{ARIMA}(0, 1, 1)(0, 1, 1)_{12}$, with the estimated model:
+   
+$$\ln(Y_t) - \ln(Y_{t - 1}) - \[\ln(Y_{t - 12}) - \ln(Y_{t - 13})\] = e_t -0.3424e_{t - 1} - 0.5405e_{t - 12} + 0.1850672e_{t - 13}.$$
 
-Subsequently, a range of spatial econometric models is applied to the preprocessed dataset. This includes SAR models, which account for spatial autocorrelation in the dependent variable; SEM models, which consider spatially correlated errors; SDM models, which incorporate lagged values of the dependent variable as explanatory variables; SDEM models, which combine aspects of SEM and SDM; SLX models, which include a spatially lagged dependent variable as a covariate; SAC models, which address cross-sectional dependence in spatial data; and GNSM, which allow for spatially varying coefficients.
+3. **Residual Analysis**: The residuals of the model satisfy the diagnostic model assumptions, although visually, they may not closely resemble a normal distribution.
 
-Each model is estimated and evaluated using appropriate diagnostic tests and goodness-of-fit measures to assess model performance and identify the most suitable model for explaining variations in unemployment rates across North Sumatra.
-
-Through the application of spatial econometric methods, this study aims to provide insights into the spatial determinants of unemployment in North Sumatra and inform targeted policy interventions aimed at addressing unemployment disparities and fostering regional development.
+4. **Forecasting Performance**: Forecasting for the `test` data yields a MAPE value of 1.478059 < 10, indicating highly accurate forecasting. The original data and fitted values closely align on the time plot. For forecasting the next 4 years, starting from the forecast origin, which is the end of the `train` data, the forecast limit widens as time progresses. The forecasting values exhibit an increasing trend, suggesting a potential rise in monthly airline passenger numbers for US airlines in the future.
 
 ### Credit to Team Members
 This project was a collaborative effort, and credit goes to the entire team for their contributions to data collection, analysis, and interpretation.
 
 ### Uploaded File Description
-- `data_sumut.xlsx`: Raw dataset containing information about open unemployment rate in North Sumatera in 2022.
-- `Tugas 3 Topik Khusus I_Kelompok 1.R`: R script for performing spatial regressions analysis on open unemployment rate data.
-- `Tugas 3 Topik Khusus I_Kelompok 1.pdf`: Comprehensive report summarizing the findings and conclusions of spatial regressions analysis on open unemployment rate data.
+- `Project Model Peramalan_Kelompok B.Rmd`: R Markdown script for performing SARIMA analysis on the monthly airline passenger data.
+- `Project Model Peramalan_Kelompok B.pdf`: Comprehensive report summarizing the findings and conclusions of the SARIMA analysis..
+
+### GitHub Repository
+The code and file for this project can be found [here](https://github.com/dikiwahyudi11/Monthly-Airline-Passenger-Forecasting). 
