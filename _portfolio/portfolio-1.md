@@ -3,5 +3,16 @@ title: "Portfolio item number 1"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
+<script>
+import basics from 'https://raw.githubusercontent.com/dikiwahyudi11/Monthly-Airline-Passenger-Forecasting/main/README.md'
+import reference from 'https://raw.githubusercontent.com/dikiwahyudi11/Monthly-Airline-Passenger-Forecasting/main/README.md'
+</script>
+# Docs
 
-[aa](https://raw.githubusercontent.com/dikiwahyudi11/Monthly-Airline-Passenger-Forecasting/main/README.md)
+## Basics
+
+<!--@include:./parts/basics.md-->
+
+## API Reference
+
+<!--@include:./parts/reference.md-->
