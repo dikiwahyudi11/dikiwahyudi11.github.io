@@ -4,7 +4,7 @@ excerpt: "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRroeoH
 collection: portfolio
 ---
 
-![Rumah](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRroeoHYUHyLQSZM8xwWn8ATRGNhU-YDMkLW2fQg6901Q&s) <br>
+![Rumah](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRroeoHYUHyLQSZM8xwWn8ATRGNhU-YDMkLW2fQg6901Q&s)
 
 ### Introduction
 This project is conducted as part of the course "Data Mining and Business Intelligence". The real estate market in Indonesia is dynamic and multifaceted, driven by factors such as economic growth, urbanization, and changing consumer preferences. Understanding the underlying trends and patterns within this market is crucial for stakeholders ranging from property developers to investors and policymakers. In this project, we leverage a dataset containing housing prices in Indonesia, encompassing various attributes such as land area, building area, number of bedrooms and bathrooms, garage and carport capacity, location details, certification type, electricity capacity, orientation, and listing date. With the aid of Exploratory Data Analysis (EDA), we aim to uncover insights into the factors influencing housing prices, identify key trends, and provide actionable intelligence for decision-making in the real estate sector.
