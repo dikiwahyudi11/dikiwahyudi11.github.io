@@ -18,4 +18,7 @@ Through the integration of these advanced analytical approaches, this study aims
 
 ### Uploaded File Description
 - `UAS Sains Data Genom_Diki Wahyudi_2106709131.Rmd`: R Markdown script for performing clustering, biclustering, and classification analysis on the prostate cancer genomic dataset.
-- `UAS Sains Data Genom_Diki Wahyudi_2106709131.pdf`: Comprehensive report summarizing the findings and conclusions of the clustering, biclustering, and classification analysis on the prostate cancer genomic dataset. 
+- `UAS Sains Data Genom_Diki Wahyudi_2106709131.pdf`: Comprehensive report summarizing the findings and conclusions of the clustering, biclustering, and classification analysis on the prostate cancer genomic dataset.
+
+### GitHub Repository
+The code and file for this project can be found [here](https://github.com/dikiwahyudi11/Clustering-Biclustering-Classification-on-Prostate-Cancer-Genomics). 
