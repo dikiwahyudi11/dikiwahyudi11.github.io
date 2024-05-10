@@ -8,36 +8,23 @@ redirect_from:
   - /about.html
 ---
 
-
-
 ![Illustration of statistics](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe2pr-HwfdlE_YWgrI47Rt244myS9jqIQi2MmWWEvR2g&s){: .align-right width="300px"}
-👨🏻‍💻 I'm a penultimate year student at Universitas Indonesia.
+
+👨🏻‍💻 I'm a penultimate year student at Universitas Indonesia majoring in Statistics.
 
 🔬 My research interests are in application of spatial econometrics model!
 
-📚 I'm currently working towards my Master's Thesis in the field of Vision-Language-Modelling.
+📚 I’m currently exploring different deep learning algorithms and working on some projects to apply what I’ve learned. 
 
-📽️ I am also interested in assisting others on their path in the world of Machine Learning and academia.
+# Experience
 
-# Selected Experience
+## 👨🏻‍🔬 Pojok Statistik Universitas Indonesia Agent
+Pojok Statistik is a collaborative service between Badan Pusat Statistik (BPS) and universities. It serves as a platform for statistical services and promotions within the university environment and aims to enhance statistical data literacy through optimal service delivery and promotions, particularly within the academic segment. As a staff member of the Data Analysis Division at Pojok Statistik UI, my responsibilities include:
+• providing offline services for BPS data requests and consultations related to statistical methods;
+• processing data to convert it into informative infographics and video content;
+• executing data processing for client projects.
 
-## 🤖 Open Source Contributions
-I have experience contributing to [Arena Bench](https://github.com/Arena-Rosnav) a large open-source project for robotic obstacle avoidance using Deep Reinforcement Learning.
-
-Moreover, I have published a [respective paper](https://sudo-boris.github.io/publication/2022-Arena-Bench) at the IROS conference and in the Robotics and Automation Letters (RA-L) journal.
-
-## 📜 Reimplementing and Reproducing Papers
-I have experience with independent research. I have implemented the Reward Constrained Policy Optimization paper into stable-baselines3 PPO and reproduced the original results by running and tracking experiments.
-
-To accompany this work, I have submitted a blog post to the **ICLR** Blogposts Track communicating the paper's theory and my results.
-
-Feel free to look at my specific [portfolio entry](https://sudo-boris.github.io/portfolio/RCPPO/).
-
-## 👨🏻‍🔬 Professional Experience
-Currently I am working as a **Student Researcher** at the Reliable Multimodal AI Lab at the TU Darmstadt under the supervision of Prof. Marcus Rohrbach working on **Generative Video-Language Modelling**.
-Additionally, I have professional experience working as an **Applied Machine Learning Student Researcher** at the Fraunhofer Heinrich Hertz Institute. \
-There I worked on dynamic traffic flow forecasting using Graph Neural Networks.
-
-## 📚 Teaching and Community Contributions
-To further contribute to the Machine Learning community, I have a [YouTube](https://www.youtube.com/@borismeinardus) and [Medium](https://medium.com/@boris.meinardus) channel where I publish educational Machine Learning content.
-
+## 📚 Teaching Assitant
+As a teaching assistant, I am in charge of:
+•	providing learning assistance for Design of Experiments, Introduction to Multivariate Statistics, Nonparametric Statistics, Multivariate Statistics, and Time Series Analysis to enhance understanding of fundamental concepts and their practical application in relevant software/programming languages;
+•	assessing students' assignments.
