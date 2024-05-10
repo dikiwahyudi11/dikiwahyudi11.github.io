@@ -3,11 +3,12 @@ main:
   - title: "CV"
     # url: /cv/
     url: /files/CV_Diki Wahyudi.pdf
+
   - title: "Portfolio"
     url: /portfolio/
     
-  - title: "Teaching Assitantat Module"
-    url: /teaching/    
+  # - title: "Teaching Assitantat Module"
+  #  url: /teaching/    
       
   # - title: "Publications"
   #  url: /publications/
