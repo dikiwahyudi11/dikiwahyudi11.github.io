@@ -14,7 +14,7 @@ The analysis methodology revolves around employing deep learning techniques for 
 
 Initially, the dataset will be divided into training, validation, and testing sets to ensure model performance generalizes well to unseen data. The deep learning models will undergo training on the training set, where the model parameters are iteratively adjusted to minimize the classification error. Hyperparameter tuning may be performed to optimize model performance and prevent overfitting.
 
-Following training, the models will be evaluated on the validation set to assess their effectiveness in distinguishing between sarcastic and genuine news headlines. Metrics such as accuracy, precision, recall, and F1-score will be calculated to quantify the model's performance. Additionally, the best-performing model(s) will undergo further evaluation on the test set to validate their robustness and real-world applicability.
+Following training, the models will be evaluated on the validation set to assess their effectiveness in distinguishing between sarcastic and genuine news headlines. Metrics such as accuracy, precision, recall, and $$F1$$-score will be calculated to quantify the model's performance. Additionally, the best-performing model(s) will undergo further evaluation on the test set to validate their robustness and real-world applicability.
 
 Through this rigorous approach, we aim to develop state-of-the-art classification models capable of accurately detecting sarcasm in news headlines, thereby enhancing our ability to navigate and interpret information in today's digital media landscape.
 
