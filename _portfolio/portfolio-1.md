@@ -1,6 +1,6 @@
 ---
 title: "Monthly Airline Passenger Forecasting Using SARIMA Analysis"
-excerpt: "<br/><img src='https://miro.medium.com/v2/resize:fit:1400/0*4Rsuo3vPWquNYvjd'>"
+excerpt: "<img src='https://miro.medium.com/v2/resize:fit:1400/0*4Rsuo3vPWquNYvjd'>"
 collection: portfolio
 ---
 
