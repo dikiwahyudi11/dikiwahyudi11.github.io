@@ -10,7 +10,7 @@ redirect_from:
 
 ![Illustration of statistics](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe2pr-HwfdlE_YWgrI47Rt244myS9jqIQi2MmWWEvR2g&s){: .align-right width="300px"}
 
-👨🏻‍💻 I'm a penultimate year student at Universitas Indonesia majoring in Statistics.
+👨🏻‍💻 I'm a final-year student at Universitas Indonesia majoring in Statistics.
 
 🔬 My research interests are in application of spatial econometrics model!
 
